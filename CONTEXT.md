@@ -19,6 +19,12 @@ Card Case is an original static browser roguelite with a cycling card deck, a ro
 - Card rewards add attacks, blocks, draw effects, healing, or attack weakening. **战术换手** draws two; **穿甲刺** bypasses shield; **横扫** damages and weakens; **急救贴片** heals. The repair-station event can permanently remove a card.
 - An attack readies +2 block on the next block; a block readies +3 damage on the next attack. Each combo triggers once and expires at turn end.
 
+## Single-fight combat prototype
+
+- **炉心决斗** is a standalone experiment for testing whether one replayable boss encounter is a stronger foundation than a long construction run. It does not replace the eleven-room game.
+- The fixed 12-card starter deck contains eight attacks (including two free **探手**), two **架势**, and two **读招**. Draw four each round and spend up to 3 AP between cards and movement.
+- The **炉心统领** previews attacks against one or more of three lanes. Moving to a safe lane costs 1 AP, completely avoids a normal telegraphed attack, and primes +4 damage on the next hit. The every-third-round, 14-damage **炉心过载** hits every lane; deal 14 damage before it resolves to interrupt it, otherwise armor reduces the blast.
+
 ## Event dice
 
 - The armory's d20 check is deliberately limited to a high-stakes event. Routine combat remains readable and tactical rather than being decided by dice.
